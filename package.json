@@ -1,0 +1,18 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "docker test app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --inspect=0.0.0.0:9229"  
+  },
+  "author": "Venkatram Veerareddy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mangodb": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  }
+}
